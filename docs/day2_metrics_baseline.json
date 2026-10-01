@@ -1,0 +1,40 @@
+{
+ "summary": {
+  "video_file": "demo_intrusion.mp4",
+  "analyzed_at": "2026-09-30 16:28:53",
+  "mode": "baseline",
+  "frames_analyzed": 30,
+  "raw_detections": 150,
+  "candidate_events": 0,
+  "confirmed_incidents": 2,
+  "dismissed_candidates": 0,
+  "rows_extended": 0,
+  "confirm_delay_frames_median": 0,
+  "confirm_delay_frames_max": 0,
+  "high_risk": 0,
+  "critical": 0,
+  "duplicates_suppressed": 0,
+  "alert_reduction_pct": 98.7,
+  "processing_sec": 3.8
+ },
+ "incidents": [
+  {
+   "db_id": 92,
+   "event_type": "intrusion",
+   "confidence": 0.8519570827484131,
+   "risk_level": "MEDIUM",
+   "video_time": "00:00",
+   "duration_sec": 0.0,
+   "verification": "DETECTED"
+  },
+  {
+   "db_id": 93,
+   "event_type": "person",
+   "confidence": 0.5982058048248291,
+   "risk_level": "MEDIUM",
+   "video_time": "00:00",
+   "duration_sec": 0.0,
+   "verification": "DETECTED"
+  }
+ ]
+}
